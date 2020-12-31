@@ -9,7 +9,7 @@ import {
     Col,
     CardHeader,
 } from "reactstrap";
-// import APIURL from "../../helpers/environment";
+import APIURL from "../helpers/environment";
 
 import CKEditor from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
@@ -51,7 +51,7 @@ const GrabacionesPost = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(props.updateToken);
-        fetch(`http://localhost:3000/recording/create`, {
+        fetch(`${APIURL}/recording/create`, {
             method: "POST",
             body: JSON.stringify({
                 record: {

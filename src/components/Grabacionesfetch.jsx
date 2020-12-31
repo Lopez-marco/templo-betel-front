@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { CardColumns } from 'reactstrap';
 import GrabacionesfetchChild from "./GrabacionesfetchChild"
+import APIURL from "../helpers/environment"
 
 
 const GrabacionesFetch = (props) => {
@@ -9,7 +10,7 @@ const GrabacionesFetch = (props) => {
 
 
     const fetchrecording = () => {
-        fetch(`http://localhost:3000/recording/all`, {
+        fetch(`${APIURL}/recording/all`, {
             method: "GET",
             headers: new Headers({
                 "Content-Type": "application/json",

@@ -6,6 +6,7 @@ import {
 import ReactHtmlParser from "react-html-parser";
 import ReactPlayer from 'react-player'
 import ReactAudioPlayer from 'react-audio-player';
+import APIURL from "../helpers/environment"
 
 const GrabacionesfetchChild = (props) => {
 
@@ -22,7 +23,7 @@ const GrabacionesfetchChild = (props) => {
     const { description, date, title, audio, video } = props.recording;
 
     const Delete = () => {
-        fetch(`http://localhost:3000/recording/delete/${props.recording.id}`, {
+        fetch(`${APIURL}/recording/delete/${props.recording.id}`, {
             method: "Delete",
             headers: new Headers({
                 "Content-Type": "application/json",
