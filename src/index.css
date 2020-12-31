@@ -1,13 +1,400 @@
 body {
-  margin: 0;
+  width: 100%;
+  margin: 0%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background: linear-gradient(#FFF1EB, #ACE0F9);
+  background-repeat: no-repeat;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+  .jumbotron {
+    background: url(./assets/IMG_2522.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .into {
+    margin-top: 5vw;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 38px;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .into:first-of-type {
+    /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+    animation: showup 7s infinite;
+  }
+
+  .into:last-of-type {
+    width: 0px;
+    animation: reveal 7s infinite;
+  }
+
+  .into:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+  }
+
+  @keyframes showup {
+    0% {
+      opacity: 0;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    80% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes slidein {
+    0% {
+      margin-left: -800px;
+    }
+
+    20% {
+      margin-left: -800px;
+    }
+
+    35% {
+      margin-left: 0px;
+    }
+
+    100% {
+      margin-left: 0px;
+    }
+  }
+
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      width: 0px;
+    }
+
+    20% {
+      opacity: 1;
+      width: 0px;
+    }
+
+    30% {
+      width: 355px;
+    }
+
+    80% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      width: 355px;
+    }
+  }
+
+  .card {
+    border-radius: 25px;
+  }
+
+  .particulas {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 49vw;
+  }
+
+
+  .pray {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    /* this is needed or the background will be offset by a few pixels at the top */
+    overflow: auto;
+    position: relative;
+    /* padding-top: 10px; */
+    margin-top: 80px;
+  }
+
+  .pray:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    background-image: url(./assets/Praying.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 99%;
+    margin-top: -18px;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+
+  /* .pray .img {
+    filter: blur(9px);
+  } */
+  /* 
+  .title {
+    position: relative;
+    z-index: 0;
+    background: url(./assets/IMG_2522.jpg);
+    background-size: 100vw 50vw;
+    height: 45vw;
+    background-color: transparent;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  } */
+
+  .titleimg {
+    width: 350px;
+  }
+
+  .lead {
+    color: black;
+    font-weight: 500;
+  }
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar .active {
+    background-color: white;
+  }
+
+  .parallaxAltar {
+    background-image: url("./assets/altar.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxPastor {
+    background-image: url("./assets/pastor.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxGrabaciones {
+    background-image: url("./assets/grabaciones.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  a {
+    color: #0060B6;
+    text-decoration: none;
+  }
+
+  .container2 .card2 {
+    text-align: center;
+    padding: 20px 16px;
+    max-width: 300px;
+    height: 235px;
+    background: #fff;
+    margin: 30px 25px;
+    box-shadow: o 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    border-radius: 4px;
+    }
+
+    .container2 .card2 .imgBx2 {
+      position: relative;
+      width: 260px;
+      height: 160px;
+      top: -60px;
+      left: 5px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .container2 .card2 .imgBx2 img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+
+    .container2 .card2 .content2 {
+      position: relative;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+    }
+
+    .container .card {
+      text-align: center;
+      max-width: 300px;
+      height: 235px;
+      background: #fff;
+      margin: 30px 5px;
+      padding: 20px 15px;
+      box-shadow: o 5px 20px rgba(0, 0, 0, 0.5);
+      transition: 0.3s ease-in-out;
+    }
+
+    .container .card:hover {
+      height: 430px;
+    }
+
+    .container .card .imgBx {
+      position: relative;
+      width: 260px;
+      height: 160px;
+      top: -60px;
+      left: 5px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .container .card .imgBx img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+
+    .container .card .content {
+      position: relative;
+      margin-top: -240px;
+      padding: 80px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+    }
+
+    .container .card:hover .content {
+      visibility: visible;
+      opacity: 1;
+      margin-top: -38px;
+      transition-delay: 0.3s;
+    }
+
+    .footer {
+      background-color: rgba(0, 0, 0, 0.2);
+      width: 100%;
+      font: bold 16px;
+      padding: 30px 0px 10px 0px;
+      margin: auto;
+      /* margin: 0 0 0 0; */
+      /* margin: 5px; */
+      /* margin-top: 0px; */
+      /* margin-right: 0px !important; */
+      /* margin-left: 0px; */
+    }
+
+    .footer2 {
+      background-color: rgba(0, 0, 0, 0.2);
+      width: 100%;
+      font: bold 16px;
+      padding: 0px 0px 10px 0px;
+      margin: auto;
+      /* margin: 0 0 0 0; */
+      /* margin: 5px; */
+      /* margin-top: 0px; */
+      margin-right: 0px !important;
+      /* margin-left: 0px; */
+    }
+
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* ----------- iPhone 4 and 4S ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+      .particulas {
+        position: absolute;
+        z-index: 2;
+        max-width: 100%;
+        height: 99vw;
+      }
+    }
+
+    /* Portrait */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+    /* Landscape */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+    /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+      .particulas {
+        position: absolute;
+        z-index: 2;
+        max-width: 100%;
+        height: 240vw;
+      }
+    }
+
+    /* Portrait */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+    /* Landscape */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+      .particulas {
+        position: absolute;
+        z-index: 2;
+        max-width: 100%;
+        max-height: 99vw;
+      }
+    }
+
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+      .particulas {
+        position: absolute;
+        z-index: 2;
+        max-width: 100%;
+        height: 190vw;
+      }
+    }
+
+    /* 
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .particulas {
+      position: absolute;
+      z-index: 2;
+      max-width: 100%;
+      height: 90vw;
+    }
+  } */
