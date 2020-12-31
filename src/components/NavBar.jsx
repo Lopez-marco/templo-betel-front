@@ -31,6 +31,12 @@ const NavBar = (props) => {
             style={{ width: "110%", textDecorationColor: "white" }}
             navbar
           >
+            
+                        <NavItem>
+              <NavLink href="/" className="text-white">
+                Home
+              </NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="#about" className="text-white">
                 La Iglesia
@@ -47,7 +53,7 @@ const NavBar = (props) => {
               </NavLink>
             </NavItem> */}
             <NavItem>
-              <NavLink href="#" className="text-white">
+              <NavLink href="https://templo-betel-blog.herokuapp.com/" className="text-white" target="_blank">
                 Blog
               </NavLink>
             </NavItem>
