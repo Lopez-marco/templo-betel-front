@@ -28,7 +28,7 @@ const Footer = (props) => {
         </Col>
         <Col sm="2" style={{ marginTop: 70 }} >Conectate con Nosotros<br />
           <a href="https://www.facebook.com/profile.php?id=100007964058248" style={{ textDecoration: "none" }} ><FacebookOutlined style={{ width: 40, fontSize: '25px', color: "black" }} /></a>
-          <a href="mailto:webmaster@example.com"><MailOutlined style={{ width: 40, fontSize: '25px', color: "black" }} /> </a>
+          <a href="mailto:betel.templo0@gmail.com"><MailOutlined style={{ width: 40, fontSize: '25px', color: "black" }} /> </a>
           </Col>
         <Col sm="2"><iframe title="map" src="https://www.google.com/maps/d/embed?mid=1vMEY2wrvrl4_13z6nq8uqwJRgueQ2evz" width="300" height="300"></iframe></Col>
       </Row>

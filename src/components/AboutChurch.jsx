@@ -14,17 +14,14 @@ const AboutChurch = (props) => {
         <Container className="themed-container" fluid="md">
           <Card body>
             <CardTitle style={{ textAlign: "center" }}>
-              Nuestra Iglesia
+             Templo Betel 
             </CardTitle>
             <CardText>
               <Row>
                 <Col xs="9">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia temporibus dolore earum neque sequi suscipit atque
-                  nulla, natus
-                  <br />
-                  laudantium quod tempora itaque quia eaque ut sapiente eligendi
-                  quos, rerum non.
+                 Les deseamos la cordial Bienvenida a la pagina de La Iglesia Betel. Somos una pequeña iglesia hubicada en el sur 
+                 este de indianapolis. Les invitamos a venir a nuestros servicios, y gozarnos juntos de la presencia de Dios. Estamos
+                 alegres de recibirlos aqui en la casa de Dios.
                 </Col>
                 <Col><img className="image" src={Lord} style={{ width: 300, marginTop: -35 }} alt="Lord" /> </Col>
               </Row>
