@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron } from "reactstrap";
 import Particles from "react-particles-js";
-import Logo from "../assets/Dalila4.png"
+import Logo from "../assets/Dalila.png"
 
 const Front = (props) => {
   return (

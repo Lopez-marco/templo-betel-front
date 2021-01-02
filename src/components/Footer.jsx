@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import logo from "../assets/Dalila4.png"
+import logo from "../assets/Dalila.png"
 import heart from "../assets/heart.png"
 import Login from "./auth/auth"
 import { LinkedinOutlined, FolderOpenOutlined, GithubOutlined, FacebookOutlined, MailOutlined } from "@ant-design/icons"
