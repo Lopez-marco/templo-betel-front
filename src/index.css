@@ -351,7 +351,7 @@ body {
 .parallaxAltar {
   background-image: url("./assets/altar.jpg");
   min-height: 400px;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -381,7 +381,7 @@ html {
       .parallaxAltar {
         background-image: url("./assets/altar.jpg");
         min-height: 400px;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -406,7 +406,7 @@ html {
       .parallaxAltar {
         background-image: url("./assets/altar.jpg");
         min-height: 400px;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -430,7 +430,7 @@ html {
       .parallaxAltar {
         background-image: url("./assets/altar.jpg");
         min-height: 400px;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
