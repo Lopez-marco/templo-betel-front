@@ -348,6 +348,15 @@ body {
         max-width: 100%;
         height: 99vw;
       }
+      .parallaxGrabaciones {
+        background-image: url("./assets/grabaciones.jpg");
+        min-height: 400px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+      }
 .parallaxAltar {
   background-image: url("./assets/altar.jpg");
   min-height: 400px;
@@ -360,7 +369,24 @@ body {
 html {
   width: 100%;
 }
-    }
+.parallaxPastor {
+  background-image: url("./assets/pastor.jpg");
+  min-height: 200px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: auto;
+}
+.jumbotron {
+  background: url(./assets/IMG_2522.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  max-width: auto;
+  -o-background-size: cover;
+}
+}
 
     /* Portrait */
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
@@ -390,6 +416,34 @@ html {
       html {
         width: 100%;
       }
+      .parallaxGrabaciones {
+        background-image: url("./assets/grabaciones.jpg");
+        min-height: 400px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+      }
+
+      .parallaxPastor {
+        background-image: url("./assets/pastor.jpg");
+        min-height: 200px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+      }
+
+      .jumbotron {
+        background: url(./assets/IMG_2522.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        max-width: auto;
+        -o-background-size: cover;
+      }
     }
 
     /* Portrait */
@@ -412,8 +466,35 @@ html {
         background-size: cover;
         width: 100%;
       }
+      .parallaxGrabaciones {
+        background-image: url("./assets/grabaciones.jpg");
+        min-height: 400px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+      }
       html {
         width: 100%;
+      }
+      .jumbotron {
+        background: url(./assets/IMG_2522.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        max-width: auto;
+        -o-background-size: cover;
+      }
+
+      .parallaxPastor {
+        background-image: url("./assets/pastor.jpg");
+        min-height: 200px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
       }
     }
 
@@ -427,6 +508,15 @@ html {
         max-width: 100%;
         height: 190vw;
       }
+      .parallaxGrabaciones {
+        background-image: url("./assets/grabaciones.jpg");
+        min-height: 400px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+      }
       .parallaxAltar {
         background-image: url("./assets/altar.jpg");
         min-height: 400px;
@@ -438,6 +528,24 @@ html {
       }
       html {
         width: 100%;
+      }
+      .jumbotron {
+        background: url(./assets/IMG_2522.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        max-width: auto;
+        -o-background-size: cover;
+      }
+
+      .parallaxPastor {
+        background-image: url("./assets/pastor.jpg");
+        min-height: 200px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
       }
     }
 
