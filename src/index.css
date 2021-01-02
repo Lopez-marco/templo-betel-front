@@ -355,7 +355,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: auto;
+  width: auto;
 }
     }
 
@@ -382,7 +382,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        max-width: auto;
+        width: auto;
       }
     }
 
@@ -404,7 +404,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        max-width: auto;
+        width: 100%;
       }
     }
 
@@ -425,7 +425,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        max-width: auto;
+        width: 100%;
       }
     }
 
