@@ -42,10 +42,7 @@ const Pastorado = (props) => {
                   </div>
                   <div className="content">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptatibus perspiciatis exercitationem maiores, repellat
-                      ab alias aliquam at vitae ratione ipsam nisi cupiditate
-                      laboriosam facere repellendus. Laudantium cumque quisquam
+                        Proximamente
                   </p>
                   </div>
                 </div>
@@ -91,10 +88,7 @@ const Pastorado = (props) => {
                   </div>
                   <div className="content">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptatibus perspiciatis exercitationem maiores, repellat
-                      ab alias aliquam at vitae ratione ipsam nisi cupiditate
-                      laboriosam facere repellendus. Laudantium cumque quisquam
+                      Proximamente
                   </p>
                   </div>
                 </div>

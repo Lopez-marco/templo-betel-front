@@ -17,7 +17,6 @@ const Footer = (props) => {
         <Col sm="2" style={{ marginTop: 70, marginLeft: 25 }}>
           <span>1741 Luther St,</span><br />
           Indianapolis, IN 46203<br />
-          Church Email
         </Col>
 
         <Col sm="3" style={{ marginTop: 70 }}>
