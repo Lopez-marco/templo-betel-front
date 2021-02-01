@@ -10,7 +10,7 @@ const GrabacionesFetch = (props) => {
 
 
     const fetchrecording = () => {
-        fetch(`${APIURL}/recording/all`, {
+        fetch(`https://templo-betel-server.herokuapp.com/recording/all`, {
             method: "GET",
             headers: new Headers({
                 "Content-Type": "application/json",
