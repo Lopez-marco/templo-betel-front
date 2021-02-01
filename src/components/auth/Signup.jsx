@@ -8,7 +8,7 @@ const Signup = (props) => {
 
     let handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`${APIURL}/user/signup`, {
+        fetch(`https://templo-betel-server.herokuapp.com/user/signup`, {
             method: "POST",
             body: JSON.stringify({
                 user: {

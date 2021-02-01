@@ -51,7 +51,7 @@ const GrabacionesPost = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(props.updateToken);
-        fetch(`${APIURL}/recording/create`, {
+        fetch(`https://templo-betel-server.herokuapp.com/recording/create`, {
             method: "POST",
             body: JSON.stringify({
                 record: {

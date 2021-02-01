@@ -23,7 +23,7 @@ const GrabacionesfetchChild = (props) => {
     const { description, date, title, audio, video } = props.recording;
 
     const Delete = () => {
-        fetch(`${APIURL}/recording/delete/${props.recording.id}`, {
+        fetch(`https://templo-betel-server.herokuapp.com/recording/delete/${props.recording.id}`, {
             method: "Delete",
             headers: new Headers({
                 "Content-Type": "application/json",

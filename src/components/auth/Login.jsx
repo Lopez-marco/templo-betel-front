@@ -9,7 +9,7 @@ const Login = (props) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`${APIURL}/user/login`, {
+        fetch(`https://templo-betel-server.herokuapp.com/user/login`, {
             method: "POST",
             body: JSON.stringify({
                 user: { username: username, password: password },
