@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { CardColumns } from 'reactstrap';
+import { CardDeck } from 'reactstrap';
 import GrabacionesfetchChild from "./GrabacionesfetchChild"
-import APIURL from "../helpers/environment"
-
 
 const GrabacionesFetch = (props) => {
 
@@ -39,9 +37,9 @@ const GrabacionesFetch = (props) => {
     }, []);
 
     return (<div>
-        <CardColumns>
+        <CardDeck>
             {displayCards()}
-        </CardColumns>
+        </CardDeck>
 
     </div>);
 }
