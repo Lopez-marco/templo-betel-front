@@ -45,7 +45,7 @@ const Auth = (props) => {
             updateOn={updateOn}
         />
     ) : (
-          ""  // <Signup updateToken={props.updateToken} togglepopup={toggle} />
+            <Signup updateToken={props.updateToken} togglepopup={toggle} />
         );
 
     function Toggle(e) {
@@ -68,7 +68,9 @@ const Auth = (props) => {
                 </ModalHeader>
                 <ModalBody>{log}</ModalBody>
                 <ModalFooter>
-                 {/* "" */}
+                    <Button onClick={(e) => Toggle(e)} color="primary">
+                        Toggle Signup/Login
+          </Button>{" "}
                     <Button color="secondary" onClick={toggle}>
                         Cancel
           </Button>
