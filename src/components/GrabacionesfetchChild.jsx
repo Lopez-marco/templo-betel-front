@@ -57,7 +57,7 @@ const GrabacionesfetchChild = (props) => {
         {type}<br />
         {recording}<br />
         {ReactHtmlParser(description)} */}
-        <Card>
+        <Card style={{width: 335, height: 600, marginBottom: 15}}>
             {/* <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" /> */}
             <CardBody>
                 <CardTitle tag="h5">Titulo: {title}</CardTitle>
